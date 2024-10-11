@@ -1,0 +1,32 @@
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.body {
+    font-family: sans-serif; /* Specify a sans-serif font */
+    background-color: #f4f4f4; /* Optional: Set a background color */
+    line-height: 1.6; /* Set line height for readability */
+}
+
+.container {
+    width: 960px; /* Set container width */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Optional: Add padding */
+    background-color: white; /* Optional: Set background color for the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for aesthetics */
+}
+
+header {
+    text-align: center; /* Center header text */
+}
+
+.main {
+    margin: 20px 0; /* Adjust margin for main content */
+}
+
+.responsive-img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+}
